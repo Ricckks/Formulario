@@ -4,7 +4,7 @@ function validacao () {
 		 document.form_cadastro.nome.focus();
 		 return false;
 	 }
-	 if (document.form_cadastro.email.value=="") ||
+	 if (document.form_cadastro.email.value=="" ||
 	     document.form_cadastro.email.value.indexOf("@")==-1 ||
 		 document.form_cadastro.email.value.indexOf(".")==-1) {  //validação do campo E-mail
 			 alert ("Por Favor, Digite um E-mail válido");
